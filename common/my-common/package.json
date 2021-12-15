@@ -1,0 +1,8 @@
+{
+  "name": "@lerna-missing-dependents/my-common",
+  "version": "1.0.0",
+  "description": "My common",
+  "license": "MIT",
+  "main": "index.js",
+  "private": true
+}

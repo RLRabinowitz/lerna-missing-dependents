@@ -1,0 +1,23 @@
+{
+  "name": "@lerna-missing-dependents/parent",
+  "version": "1.0.0",
+  "description": "lerna-missing-dependents Parent Package",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RLRabinowitz/lerna-missing-dependents.git"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "common/*",
+      "services/*"
+    ]
+  },
+  "scripts": {
+    "lerna": "lerna"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/RLRabinowitz/lerna-missing-dependents#readme",
+  "packageManager": "yarn@2.4.3"
+}
