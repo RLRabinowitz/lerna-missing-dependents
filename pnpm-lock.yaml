@@ -1,0 +1,21 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  common/my-common:
+    specifiers: {}
+
+  services/service-1:
+    specifiers:
+      '@lerna-missing-dependents/my-common': ^1.0.0
+    dependencies:
+      '@lerna-missing-dependents/my-common': link:../../common/my-common
+
+  services/service-2:
+    specifiers:
+      '@lerna-missing-dependents/my-common': ^1.0.0
+    dependencies:
+      '@lerna-missing-dependents/my-common': link:../../common/my-common
